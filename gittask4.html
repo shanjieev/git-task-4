@@ -1,0 +1,361 @@
+//1.Print odd numbers in an array
+<html>
+    <head>
+        <body>
+            <script>
+              
+                  var i = function(array){
+                  for(var i = 0 ; i< array.length ; i++){
+                        if(array[i]%2!=0){
+                           console.log(array[i])
+                  }
+                } 
+                   }
+                      </script>
+        </body>
+    </head>
+</html>
+IIFE:Print odd numbers in an array
+ <html>
+    <head>
+        <body>
+            <script>
+              
+                  var i = function(array){
+                  for(var i = 0 ; i< array.length ; i++){
+                        if(array[i]%2!=0){
+                           console.log(array[i])
+                  }
+                } 
+                   }[1,2,3,4,5,6]
+                      </script>
+        </body>
+    </head>
+</html>
+programs in arrow functions.
+Print odd numbers in an array
+<html>
+    <head>
+        <body>
+            <script>
+              
+                  var oddfunction  = (array)=>{
+                  for(var i = 0 ; i< array.length ; i++){
+                        if(array[i]%2!=0){
+                           console.log(array[i])
+                  }
+                } 
+                   }
+                      </script>
+        </body>
+    </head>
+</html>
+
+//2.Convert all the strings to title caps in a string array
+<html>
+    <head>
+        <body>
+            <script>
+              
+             var str = function (str) {
+                    str = str.toLowerCase().split(' ');
+                    for (var i = 0; i < str.length; i++) {
+                      str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+                    } 
+                    return str.join(' ');
+                  }
+                      </script>
+        </body>
+    </head>
+</html>
+
+//.IIFE 
+<html>
+    <head>
+        <body>
+            <script>
+              var str = function(str){
+              str = str.toLowerCase().split(' ');
+                    for (var i = 0; i < str.length; i++) {
+                      str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+                    } 
+                    return str.join(' ');
+                  }("rushdhitya is my name ");
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+
+//programs in arrow functions.
+Convert all the strings to title caps in a string array
+<html>
+    <head>
+        <body>
+            <script>
+              var str =(str) => {
+              str = str.toLowerCase().split(' ');
+                    for (var i = 0; i < str.length; i++) {
+                      str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+                    } 
+                    return str.join(' ');
+                  }
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+//3.Sum of all numbers in an array 
+<html>
+    <head>
+        <body>
+            <script>
+                var sum = function(){
+                  for(var i = 0 ; i< array.length ; i++){
+                     sum = sum + array[i];
+                   }
+                   return sum;
+                   console.log(sum)
+                }
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+//IIFE:
+<html>
+    <head>
+        <body>
+            <script>
+                var sum = function(){
+                  for(var i = 0 ; i< array.length ; i++){
+                     sum = sum + array[i];
+                   }
+                   return sum;
+                   console.log(sum)
+                }[1,2,3,4,5,6,7,8,9,4,5,6,2,5,9,2,44,8]
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+///programs in arrow function
+Sum of all numbers in an array
+<html>
+    <head>
+        <body>
+            <script>
+                var sum = sum => { 
+                  for(var i = 0 ; i< array.length ; i++){
+                     sum = sum + array[i];
+                   }
+                   return sum;
+                   console.log(sum)
+                }
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+//4.Return all the prime numbers in an array
+<html>
+    <head>
+        <body>
+            <script>
+               var numarray = function(numArray){
+                      numArray = numArray.filter((number) => {
+                        for (var i = 2; i <= Math.sqrt(number); i++) {
+                          if (number % i === 0) return false;
+                        }
+                        return true;
+                      });
+                      console.log(numArray);
+                  }
+        
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+IIFE 
+<html>
+    <head>
+        <body>
+            <script>
+               var numarray = function(numArray){
+                      numArray = numArray.filter((number) => {
+                        for (var i = 2; i <= Math.sqrt(number); i++) {
+                          if (number % i === 0) return false;
+                        }
+                        return true;
+                      });
+                      console.log(numArray);
+                  }[1,2,3,4,5,6]
+        
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+
+programs in arrow functions.
+Return all the prime numbers in an array
+
+<html>
+    <head>
+        <body>
+            <script>
+               var numArray = numarray => {
+                      numArray = numArray.filter((number) => {
+                        for (var i = 2; i <= Math.sqrt(number); i++) {
+                          if (number % i === 0) return false;
+                        }
+                        return true;
+                      });
+                      console.log(numArray);
+                  }
+        
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+
+//5.Return all the palindromes in an array
+<html>
+    <head>
+        <body>
+            <script>
+                 var str = function(str){
+                var str = "" + N;
+                var len = str.length;
+                for (let i = 0; i < n; i++)
+        {
+           var ans = isPalindrome(arr[i]);
+            if (ans == false)
+                return false;
+        }
+        return true;
+                }
+    
+        
+                  
+                      </script>
+        </body>
+    </head>
+</html>
+
+//IIFE 
+<html>
+    <head>
+        <body>
+            <script>
+                 var str = function(arr,n){
+                var str = "" + N;
+                var len = str.length;
+                for (let i = 0; i < n; i++)
+        {
+           var ans = isPalindrome(arr[i]);
+            if (ans == false)
+                return false;
+        }
+        return true;
+                }([1,2,3,4],3);
+     </script>
+        </body>
+    </head>
+</html>
+
+programs in arrow functions
+Return all the palindromes in an array
+
+<html>
+    <head>
+        <body>
+            <script>
+                 var palindromes = (ans)=>{
+                var str = "" + N;
+                var len = str.length;
+                for (let i = 0; i < n; i++)
+        {
+           var ans = isPalindrome(arr[i]);
+            if (ans == false)
+                return false;
+        }
+        return true;
+                }
+        </script>
+        </body>
+    </head>
+</html>
+//6.Remove duplicates from an array
+<html>
+    <head>
+        <body>
+            <script>
+                var dup = function(array){
+                        let dup = [...new Set(array)];
+                        console.log(dup);
+                      }
+        </script>
+        </body>
+    </head>
+</html>
+IIFE 
+<html>
+    <head>
+        <body>
+            <script>
+                var dup = function(array){
+                        let dup = [...new Set(array)];
+                        console.log(dup);
+                      }([1,2,3,4,5]);
+        </script>
+        </body>
+    </head>
+</html>
+
+//7.Rotate an array by k times
+<html>
+    <head>
+        <body>
+            <script>
+                 var k = 2;
+                (function(array , k)
+                {
+                          k = k % a.length;
+                            if(k < 0){
+                              k += a.length;
+                            }
+
+                            reverse(a, 0, a.length - k - 1);
+                            reverse(a, a.length - k, a.length - 1);
+                            reverse(a, 0, a.length - 1);
+                            console.log(k);
+                          })
+                          
+        </script>
+        </body>
+    </head>
+</html>
+
+IIFE
+<html>
+    <head>
+        <body>
+            <script>
+                 (function(array , k){
+                          k = k % a.length;
+                            if(k < 0){
+                              k += a.length;
+                            }reverse(a, 0, a.length - k - 1);
+                            reverse(a, a.length - k, a.length - 1);
+                            reverse(a, 0, a.length - 1);
+                          })([1,2,3,4] , 2)
+        </script>
+        </body>
+    </head>
+</html>
+
+
+
